@@ -1,2 +1,4 @@
 node_modules
 npm-debug.log
+/.idea
+/4-redux/package-lock.json
