@@ -10,7 +10,7 @@ export function fetchTweets() {
       - change "reacttest" below to any other username
       - post some tweets to http://rest.learncode.academy/api/yourusername/tweets
     */
-    axios.get("http://rest.learncode.academy/api/reacttest/tweets")
+    axios.get("http://rest.learncode.academy/api/sabau/tweets")
       .then((response) => {
         dispatch({type: "FETCH_TWEETS_FULFILLED", payload: response.data})
       })
